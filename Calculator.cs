@@ -1,4 +1,4 @@
-// Продвинутый калькулятор v2.0
+// Продвинутый калькулятор v2.00
 using System;
 
 public class Calculator
