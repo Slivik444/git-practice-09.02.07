@@ -32,3 +32,5 @@
 
 ### Fixed
 - Разрешён конфликт слияния между feature/calculator и feature/calculator-advanced
+### Fixed
+- Добавлены ограничения на пуши
