@@ -17,6 +17,15 @@ public class Calculator
         return a * b;
     }
 
+    public static double Divide(double a, double b)
+    {
+        if (b == 0)
+        {
+            throw new DivideByZeroException("Деление на ноль");
+        }
+        return a / b;
+    }
+
 }
 
 class Program
