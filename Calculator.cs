@@ -20,7 +20,7 @@ public class Calculator
     /// <summary>
     /// Делит a на b.
     /// </summary>
-    /// <exception> Выбрасывается при b = 0</exception>
+    ///  Выбрасывается при b = 0
     public static double Divide(double a, double b)
     {
         if (b == 0)
@@ -43,6 +43,7 @@ class Program
 
         Console.WriteLine($"2 + 3 = {Calculator.Add(2, 3)}");
         Console.WriteLine($"2 * 3 = {Calculator.Multiply(2, 3)}");
+Console.WriteLine($"2 / 3 = {Calculator.Divide(2, 3)}");
     }
 }
 
