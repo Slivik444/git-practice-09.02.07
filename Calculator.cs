@@ -1,3 +1,4 @@
+// Базовый калькулятор (feature/calculator)
 public class Calculator
 {
     public static int Add(int a, int b)
