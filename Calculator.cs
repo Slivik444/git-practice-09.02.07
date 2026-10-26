@@ -17,11 +17,15 @@ public class Calculator
         return a * b;
     }
 
+    /// <summary>
+    /// Делит a на b.
+    /// </summary>
+    /// <exception> Выбрасывается при b = 0</exception>
     public static double Divide(double a, double b)
     {
         if (b == 0)
         {
-            throw new DivideByZeroException("Деление на ноль");
+            throw new DivideByZeroException("Деление на ноль недопустимо");
         }
         return a / b;
     }
